@@ -3686,6 +3686,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "meetily-cli"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap 4.6.1",
+ "dirs 5.0.1",
+ "rubato 0.15.0",
+ "serde",
+ "serde_json",
+ "symphonia",
+ "whisper-rs",
+]
+
+[[package]]
 name = "memchr"
 version = "2.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
